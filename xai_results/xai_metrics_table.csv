@@ -1,0 +1,10 @@
+Dataset,Model,Accuracy,F1 Score,SHAP Consistency,SHAP Stability,LIME Consistency,LIME Stability,Rho SHAP vs LR,Rho LIME vs LR,p SHAP,p LIME
+Breast Cancer Wisconsin,Logistic Regression,0.9825,0.9825,0.988,0.9867,0.973,0.6876,0.04,0.9831,0.8336,0.0
+Breast Cancer Wisconsin,Random Forest,0.9561,0.956,1.0,0.9922,0.9906,0.6937,0.146,0.7869,0.4414,0.0
+Breast Cancer Wisconsin,Neural Network,0.9649,0.9651,0.9854,0.9844,0.9688,0.6793,0.1765,0.6894,0.3509,0.0
+Heart Disease (UCI),Logistic Regression,0.8333,0.8328,0.9939,0.9467,0.989,0.7053,0.0825,0.7418,0.7887,0.0037
+Heart Disease (UCI),Random Forest,0.8667,0.8662,1.0,1.0,0.9931,0.7065,-0.2366,0.0,0.4364,1.0
+Heart Disease (UCI),Neural Network,0.8167,0.8168,0.9796,0.9586,0.9742,0.6888,-0.1099,0.4286,0.7208,0.144
+German Credit,Logistic Regression,0.71,0.7054,0.9956,0.9922,0.9867,0.6942,0.2145,0.6867,0.097,0.0
+German Credit,Random Forest,0.745,0.7313,1.0,0.9987,0.9907,0.6972,0.152,0.529,0.2424,0.0
+German Credit,Neural Network,0.715,0.7143,0.9875,0.9927,0.9605,0.6855,0.2281,0.31,0.0771,0.0151
